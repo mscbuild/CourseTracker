@@ -1,5 +1,5 @@
 import click
-from database import init_db, add_course, list_courses
+from database import init_db, add_course, list_courses, mark_completed, export_courses
 from parsers import coursera, udemy
 
 init_db()
@@ -34,6 +34,20 @@ def list():
     for c in courses:
         status = "✅" if c[4] else "❌"
         click.echo(f"{c[0]}. {c[1]} [{c[2]}] {status} - {c[3]}")
+
+@cli.command()
+@click.argument('course_id', type=int)
+def complete(course_id):
+    """Mark course as completed"""
+    mark_completed(course_id)
+    click.echo(f"Course {course_id} marked as completed ✅")
+
+@cli.command()
+@click.option('--filename', default="courses_export.xlsx", help='Export filename')
+def export(filename):
+    """Export courses to Excel"""
+    export_courses(filename)
+    click.echo(f"Courses exported to {filename}")
 
 if __name__ == "__main__":
     cli()
