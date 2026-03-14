@@ -29,7 +29,6 @@ The user marks completed lessons.
 The CLI/GUI displays progress as a percentage.
 
 1️⃣ Project structure
-
 ~~~bash
 CourseTracker/
 │
@@ -41,4 +40,19 @@ CourseTracker/
 │   └── udemy.py
 ├── database.py      # Working with SQLite
 └── requirements.txt # Dependencies
+~~~
+2️⃣ Run the project
+
+1.Install dependencies:
+~~~bash
+pip install -r requirements.txt
+~~~
+2.CLI:
+~~~bash
+python cli.py search --platform coursera --query "python"
+python cli.py list
+~~~
+3.GUI:
+~~~bash
+python gui.py
 ~~~
