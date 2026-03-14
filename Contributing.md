@@ -87,7 +87,7 @@ If you find a bug:
 
 ### 5️⃣ Code of Conduct
 
--By contributing to this project, you agree to follow our Code of Conduct:
+- By contributing to this project, you agree to follow our Code of Conduct:
 
 - Be respectful to all contributors
 
