@@ -134,7 +134,7 @@ CourseTracker/
 
 - Add bookmarks for important courses
 
-###🤝 Contributing
+### 🤝 Contributing
 
 **We welcome contributions!**
 
