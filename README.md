@@ -79,7 +79,7 @@ python gui.py
 
 - 📊 Dynamic progress bar showing percentage completed
 
-💾 Export courses to courses_export.xlsx
+- 💾 Export courses to courses_export.xlsx
 
 ### 📁 Project Structure
 ~~~bash
