@@ -77,15 +77,6 @@ When adding a new task, copy the template below:
   - Description: Add a short description of the task
   - Notes: Optional notes for contributors
 ````
-## ✅ Done
-Completed tasks.
-
-- [x] CLI search command (Coursera & Udemy)  
-- [x] Save courses in SQLite  
-- [x] GUI course list with **progress bar**  
-- [x] Export courses to Excel  
-- [x] Mark course as completed (CLI & GUI)  
-
 ---
 
 ### ⚡ Usage Tips
