@@ -76,5 +76,28 @@ When adding a new task, copy the template below:
   - Priority: High / Medium / Low
   - Description: Add a short description of the task
   - Notes: Optional notes for contributors
+````
+## ✅ Done
+Completed tasks.
+
+- [x] CLI search command (Coursera & Udemy)  
+- [x] Save courses in SQLite  
+- [x] GUI course list with **progress bar**  
+- [x] Export courses to Excel  
+- [x] Mark course as completed (CLI & GUI)  
+
+---
+
+### ⚡ Usage Tips
+
+- Assign tasks to contributors directly in GitHub Issues or Project Board.
+- Use labels: Bug, Feature, Enhancement, Documentation
+- Link each task to an Issue for tracking and discussion.
+- Use milestones for releases: v1.0, v1.1, etc.
+- Move tasks from Backlog → To Do → In Progress → Review → Done as progress is made.
+
+---
+
+This board is designed to help **CourseTracker contributors** manage development efficiently and keep track of progress.
 
 
